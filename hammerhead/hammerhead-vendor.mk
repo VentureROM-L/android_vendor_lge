@@ -15,7 +15,6 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
-    TimeService \
 
 $(call inherit-product-if-exists, vendor/lge/hammerhead/lge/lge.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/lge/proprietary/Android.mk)
