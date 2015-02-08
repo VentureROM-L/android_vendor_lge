@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+    TimeService
+
 # Qualcomm blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \
@@ -119,6 +122,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so:qcom \
     vendor/lge/hammerhead/qcom/proprietary/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
     vendor/lge/hammerhead/qcom/proprietary/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
+    vendor/lge/hammerhead/qcom/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:qcom \
     vendor/lge/hammerhead/qcom/proprietary/libFuzzmmstillomxenc.so:system/vendor/lib/libFuzzmmstillomxenc.so:qcom \
     vendor/lge/hammerhead/qcom/proprietary/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     vendor/lge/hammerhead/qcom/proprietary/libgsl.so:system/vendor/lib/libgsl.so:qcom \
