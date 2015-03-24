@@ -13,5 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    TimeService \
+    shutdownlistener \
+    UpdateSetting \
+    SprintHiddenMenu \
+    OmaDmclient
+
 
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-partial.mk)
